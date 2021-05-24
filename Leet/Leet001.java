@@ -2,7 +2,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Arrays;
 
-class Leet1 {
+class Leet001 {
 
 public static void main(String[] args)
 {
