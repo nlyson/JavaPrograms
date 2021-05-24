@@ -5,7 +5,7 @@ Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]]
 Notice that the solution set must not contain duplicate triplets.
 */
 
-class Leet15 {
+class Leet015 {
   public static void main(String[] args) {
     
     int[] nums = {-1,0,1,2,-1,-4,-2,-3,3,0,4};
