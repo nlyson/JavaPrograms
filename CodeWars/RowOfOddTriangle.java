@@ -20,36 +20,36 @@
 import java.util.Arrays;
 
 public class RowOfOddTriangle {
-  
-  public static void main(String[] args)
-  {
-	 System.out.println(Arrays.toString(oddRow(3)));
-     System.out.println(Arrays.toString(oddRow(5)));
-     System.out.println(Arrays.toString(oddRow(31)));
-  }
-  
- public static long[] oddRow(int n) {
-   
-     // Number of elements in each row is the same as the row number.
-     long[] row = new long[n];
 
-   	
-     // Calculate first value of row using Algebra skills.
-     // (Make a table and come up with a formula)
-     // Type cast n to prevent overflow - n*n can be LARGE!!!!!!!
-     long first = (long)n*n -n + 1;
+	public static void main(String[] args)
+	{
+		System.out.println(Arrays.toString(oddRow(3)));
+		System.out.println(Arrays.toString(oddRow(5)));
+		System.out.println(Arrays.toString(oddRow(31)));
+	}
 
-	
-     // Fill up array - elements are spaced out with a difference of 2
-     for(int i=0; i<row.length; i++) {
-       row[i] = first;
-       first += 2;
-     }
+	public static long[] oddRow(int n) {
+
+		// Number of elements in each row is the same as the row number.
+		long[] row = new long[n];
 
 
+		// Calculate first value of row using Algebra skills.
+		// (Make a table and come up with a formula)
+		// Type cast n to prevent overflow - n*n can be LARGE!!!!!!!
+		long first = (long)n*n -n + 1;
 
 
-     return row;
-    
-  }
+		// Fill up array - elements are spaced out with a difference of 2
+		for(int i=0; i<row.length; i++) {
+			row[i] = first;
+			first += 2;
+		}
+
+
+
+
+		return row;
+
+	}
 }
