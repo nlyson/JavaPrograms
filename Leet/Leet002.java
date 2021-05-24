@@ -7,7 +7,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 */
 
-public class Leet2 {
+public class Leet002 {
   public static void main(String[] args) {
     
     // Test Cases
