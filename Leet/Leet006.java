@@ -44,7 +44,7 @@ class Leet006 {
         
         
         if(numRows < 2)
-			    return s;
+		return s;
 		
         int len = s.length();
         
@@ -53,14 +53,14 @@ class Leet006 {
         // If there are only 2 rows, even letters go first.  Odds go last.
         //  Ex: "abcdef"  ----->  a c e b d f
         if(numRows == 2)
-		    {
+	{
           for(int i=0; i<len; i+=2)
             result += "" + s.charAt(i);
           for(int i=1; i<len; i+=2)
             result += "" + s.charAt(i);
 
           return result;
-		    }
+	}
 		
         // Used my Algebra skills and some tinkering to figure out when to add in the 
         // diagonals.
