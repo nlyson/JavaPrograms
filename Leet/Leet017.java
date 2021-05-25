@@ -33,7 +33,7 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-class TestRunner {
+class Leet017 {
   
   	public static void main(String[] args)
     {
