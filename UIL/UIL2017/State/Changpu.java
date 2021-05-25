@@ -31,7 +31,7 @@ public class Changpu {
 			int n = scan.nextInt();
 			
       
-      // Complement of a number - flip and subtract 1
+     			 // Complement of a number - flip and subtract 1
 			if(n % 2 == 0)
 				System.out.println(n + " " + (-1*n - 1) );
 			else
