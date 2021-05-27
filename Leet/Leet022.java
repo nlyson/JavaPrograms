@@ -23,7 +23,7 @@
 import java.util.List;
 import java.util.ArrayList;
 
-public class TestRunner {
+public class Leet022 {
   
   
   	public static void main(String[] args)
